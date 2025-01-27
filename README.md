@@ -6,3 +6,6 @@ A Project by:
 3. Wildan Budi Anggara
 #
 ## Readme
+[Application usage guide]
+
+[Application usage guide]: fdwebapp/static/guide/Panduan.txt
