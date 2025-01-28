@@ -97,11 +97,11 @@ DT_model = DecisionTreeClassifier(random_state=42)
 XGB_model = XGBClassifier()
 
 # Konfigurasi MySQL
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_HOST'] = ''
+app.config['MYSQL_USER'] = ''
 app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'fdwebapp'
-app.config['SECRET_KEY'] = 'e34d5b3e49d7448c9e5432ed4d9d8c6b'
+app.config['MYSQL_DB'] = ''
+app.config['SECRET_KEY'] = ''
 
 mysql = MySQL(app)
 
@@ -1010,7 +1010,7 @@ def download_xgb_predictions():
 
 
 if __name__ == '__main__':
-    ngrok.set_auth_token('2fdDpcQcNjj615RdcLkAwWubpyY_73aL3VdcrHEzN7dSJ2Ut1')
+    ngrok.set_auth_token('')
 
     url = ngrok.connect(5000)
     print("Public URL:", url)
