@@ -1,4 +1,11 @@
-- name: Create Conda Environment
-  uses: conda-incubator/setup-miniconda@v2
-  with:
-    environment-file: ./config/environment.yml
+name: final_project_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - jupyterlab
