@@ -38,4 +38,4 @@ jobs:
 
     # Perform linting
     - name: Run linting
-      run: pylint your_package_name
+      run: pylint Python Package using Anaconda
