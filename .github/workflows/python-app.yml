@@ -1,4 +1,4 @@
-name: fdwebapp
+name: FraudDetectionWebApp
 
 on:
   push:
