@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "tes"
+name = "Final-Project"
 version = "0.1.0"
-description = "A sample Python project"
+description = "A Python project"
 authors = ["dynames <muslihgilman2@gmail.com>"]
 
 [tool.poetry.dependencies]
